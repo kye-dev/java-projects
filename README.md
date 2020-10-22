@@ -1,2 +1,5 @@
-# java-projects
-A repository that is utilized for my Java projects
+### Hi 👋, my name is Kye, and welcome to #java-projects
+
+This repository will be utilized for Java projects
+
+****
