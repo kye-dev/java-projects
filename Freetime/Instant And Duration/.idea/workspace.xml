@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0688042-9ec0-4e41-8dfe-ef9e72c86139" name="Default Changelist" comment="" />
+    <list default="true" id="f7bd9ba8-34b2-48be-b429-15d9dcbd83b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kFp43KmuivJBL2pBc7ICdHF2sX" />
+  <component name="ProjectId" id="1kFqZu2GZZ6INoFoENNejH0d1bc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,29 +33,28 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="MeasuringTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyematzen.measuringtime.MeasuringTime" />
-      <module name="Measuring Time" />
+    <configuration name="InstantAndDuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyematzen.instantandduration.InstantAndDuration" />
+      <module name="Instant And Duration" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MeasuringTime" />
+        <item itemvalue="Application.InstantAndDuration" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0688042-9ec0-4e41-8dfe-ef9e72c86139" name="Default Changelist" comment="" />
-      <created>1605306003419</created>
+      <changelist id="f7bd9ba8-34b2-48be-b429-15d9dcbd83b1" name="Default Changelist" comment="" />
+      <created>1605306750733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605306003419</updated>
-      <workItem from="1605306004483" duration="746000" />
-      <workItem from="1605307040656" duration="6000" />
+      <updated>1605306750733</updated>
+      <workItem from="1605306751815" duration="286000" />
     </task>
     <servers />
   </component>
@@ -63,25 +62,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom" timestamp="1605306521809">
+    <state width="2517" height="413" key="GridCell.Tab.0.bottom" timestamp="1605307033487">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605306521809" />
-    <state width="2517" height="413" key="GridCell.Tab.0.center" timestamp="1605306521809">
+    <state width="2517" height="413" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307033487" />
+    <state width="2517" height="413" key="GridCell.Tab.0.center" timestamp="1605307033487">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605306521809" />
-    <state width="2517" height="413" key="GridCell.Tab.0.left" timestamp="1605306521809">
+    <state width="2517" height="413" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307033487" />
+    <state width="2517" height="413" key="GridCell.Tab.0.left" timestamp="1605307033487">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605306521809" />
-    <state width="2517" height="413" key="GridCell.Tab.0.right" timestamp="1605306521809">
+    <state width="2517" height="413" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307033487" />
+    <state width="2517" height="413" key="GridCell.Tab.0.right" timestamp="1605307033487">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605306521809" />
-    <state x="662" y="340" key="new project wizard" timestamp="1605306745900">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="662" y="340" key="new project wizard/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605306745900" />
+    <state width="2517" height="413" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307033487" />
   </component>
 </project>

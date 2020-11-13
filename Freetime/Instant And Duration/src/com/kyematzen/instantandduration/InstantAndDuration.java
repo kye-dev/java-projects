@@ -1,5 +1,7 @@
-package com.kyematzen.measuringtime;
+package com.kyematzen.instantandduration;
 
+import java.time.Duration;
+import java.time.Instant;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,19 +19,25 @@ import java.util.concurrent.TimeUnit;
  * THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-public class MeasuringTime {
+public class InstantAndDuration {
 
     // Starting position for compiler program execution
     public static void main(String[] args) throws InterruptedException {
 
-        // Grabs current system milliseconds (long)
-        long currentSystemTime = System.currentTimeMillis();
+        // Obtains current time from the system's UTC clock.
+        Instant start = Instant.now();
 
         // Causes program to pause for 3 seconds
         TimeUnit.SECONDS.sleep(3);
 
-        // Prints elapsed time in milliseconds by subtracting system time - currentSystemTime and diving answer by 1000 and casts to double.
-        System.out.println("Time taken: " + ((double) ((System.currentTimeMillis() - currentSystemTime) / 1000)) + "ms");
+        // Obtains current time from the system's UTC clock.
+        Instant end = Instant.now();
+
+        // Calculates the duration between two instant objects.
+        Duration interval = Duration.between(start, end);
+
+        // Prints interval duration between starting and ending the program.
+        System.out.println("Time taken: " + interval.toSeconds() + "s");
 
         // End of compiler program execution
     }
