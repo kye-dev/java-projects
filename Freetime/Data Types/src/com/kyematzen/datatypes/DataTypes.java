@@ -19,14 +19,15 @@ public class DataTypes {
     // Starting position for compiler program execution
     public static void main(String[] args) {
         // Primitive Data Types:
-        boolean exampleBool = false;
-        char exampleChar = 'A';
-        int exampleInt = 18;
-        short exampleShort = 18;
-        byte exampleByte = 18;
-        long exampleLong = 18L;
-        float exampleFloat = 18.0f;
-        double exampleDouble = 18.0;
+        // boolean, char, int, short, byte, long, float, and double
+        boolean exampleBool = false; // Declaring and initializing boolean variable.
+        char exampleChar = 'A'; // Declaring and initializing char variable.
+        int exampleInt = 18; // Declaring and initializing int variable.
+        short exampleShort = 18; // Declaring and initializing short variable.
+        byte exampleByte = 18; // Declaring and initializing byte variable.
+        long exampleLong = 18L; // Declaring and initializing long variable.
+        float exampleFloat = 18.0f; // Declaring and initializing float variable.
+        double exampleDouble = 18.0; // Declaring and initializing double variable.
 
         // Non-Primitive Data Types:
         String exampleStr = "Hello World";
