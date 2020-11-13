@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605233395279</updated>
-      <workItem from="1605233397725" duration="890000" />
+      <workItem from="1605233397725" duration="1304000" />
     </task>
     <servers />
   </component>
@@ -82,5 +82,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605233655396" />
+    <state x="662" y="340" key="new project wizard" timestamp="1605235173215">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="662" y="340" key="new project wizard/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605235173215" />
   </component>
 </project>
