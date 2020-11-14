@@ -37,12 +37,6 @@ public class TwoSum {
 
     }
 
-    /**
-     * Output: [0, 1]
-     * Output: [2, 1]
-     * Output: [0, 1]
-     */
-
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> integerIntegerMap = new HashMap<>();
         for (int i = 0; i < nums.length;i++) {
@@ -58,16 +52,4 @@ public class TwoSum {
 
         return new int[2];
     }
-
-    // twoSum method for finding index answers that equal target
-//    public int[] twoSum(int[] nums, int target) {
-//        for (int i = 0; i < nums.length; i++) {
-//            for (int j = i + 1; j < nums.length; j++) {
-//                if (nums[j] == target - nums[i]) {
-//                    return new int[] { i, j };
-//                }
-//            }
-//        }
-//        return new int[2];
-//    }
 }
