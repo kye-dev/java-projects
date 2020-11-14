@@ -27,8 +27,10 @@ public class OneDimensionalArrays {
         // Initializes instance of SplittableRandom.
         SplittableRandom splittableRandom = new SplittableRandom();
 
-        // Initializes intArray to a random size from 1-200.
+        // Initializes intArray to a random size from 1-500.
         int[] intArray = new int[splittableRandom.nextInt(1, 200)];
+
+        // Initializes local variable intArraySize to the length of intArray to save time when randomly picking value up to it.
         int intArraySize = intArray.length;
 
         // Loops through each index of intArray and assigns values randomly up to the length of intArray.
@@ -40,23 +42,20 @@ public class OneDimensionalArrays {
         int sum = Arrays.stream(intArray).sum();
 
         // Creates localized variable used to output sum of all values combined.
-        String sumStr = "";
+        String sumStr = "Sum of " + intArraySize + " integers: ";
 
         // Checks whether or not our sum is greater than 1000.
         if (sum > 1000) {
-            // If the sum is greater than 1,000 we'll use DecimalFormat to format our sum value with commas.
-            // Initializes instance of DecimalFormat with a format of #,###.
-            DecimalFormat decimalFormat = new DecimalFormat("#,###");
-
-            // Uses decimalFormat.format(number) to automatically format our sum based on #,###.
-            sumStr = decimalFormat.format(sum);
+            // Sum is greater than 1,000 we'll use DecimalFormat to format our sum value with commas.
+            // Formats string based on pattern #,###. Example 1,793.
+            sumStr = sumStr + new DecimalFormat("#,###").format(sum);
         } else {
-            // Sum was less than 1000, convert from integer into String.
-            sumStr = String.valueOf(sum);
+            // Sum less than 1000, convert from int to String.
+            sumStr = sumStr + sum;
         }
 
         // Prints sum of all values combined.
-        System.out.println("Sum of " + intArraySize + " integers randomly: " + sumStr + ".");
+        System.out.println(sumStr);
 
         // End of compiler program execution
     }
