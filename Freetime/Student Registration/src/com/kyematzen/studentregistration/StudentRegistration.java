@@ -37,22 +37,17 @@ public class StudentRegistration {
     // Student list
     private final List<Student> studentList = new ArrayList<>();
 
-    // Scanner
+    // Scanner instance
     private Scanner scanner;
-
-    // Method to get instance
-    public static StudentRegistration getInstance() {
-        if (studentRegistrationInstance == null) {
-            studentRegistrationInstance = new StudentRegistration();
-        }
-        return studentRegistrationInstance;
-    }
 
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
+        // Initializes class instance
+        studentRegistrationInstance = new StudentRegistration();
+
         // Initializes scanner instance
-        getInstance().scanner = new Scanner(System.in);
+        studentRegistrationInstance.scanner = new Scanner(System.in);
 
         // Begins core of student registration where it'll ask the user a question.
         studentRegistrationInstance.ask(true);
@@ -89,7 +84,7 @@ public class StudentRegistration {
 
             System.out.println("\nStudents");
 
-            for (Student student : getInstance().studentList) {
+            for (Student student : studentRegistrationInstance.studentList) {
                 System.out.println(student.getName() + " (age: " + student.getAge() + ", course: " + student.getCourse().getCourseName() + ")");
             }
 
@@ -109,7 +104,7 @@ public class StudentRegistration {
         try {
             studentAge = Integer.parseInt(age);
         } catch (NumberFormatException e) {
-            System.out.println("Age entered isn't valid, default at 16.");
+            System.out.println("Age entered couldn't be parsed, default at 16.");
         }
 
         addStudent(studentName, studentAge);
