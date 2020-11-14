@@ -1,5 +1,7 @@
 package com.kyematzen.twosum;
 
+import java.util.Arrays;
+
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
  * <p>
@@ -17,17 +19,31 @@ package com.kyematzen.twosum;
 
 public class TwoSum {
 
+    public static TwoSum twoSumInstance;
+
     // Starting position for compiler program execution
     public static void main(String[] args) {
-        // Here array is the
-        // array name of int type
-        int[] array = new int[4];
 
-        System.out.println("The size of "
-                + "the array is "
-                + array.length);
+        // Main class instance registration
+        twoSumInstance = new TwoSum();
+
+        System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{2, 7, 11, 15}, 9)));
+        System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{3,2,4}, 6)));
+        System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{3,3}, 6)));
+
         // End of compiler program execution
 
     }
 
+    // twoSum method for finding index answers that equal target
+    public int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] == target - nums[i]) {
+                    return new int[] { i, j };
+                }
+            }
+        }
+        return new int[2];
+    }
 }

@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605329400814</updated>
       <workItem from="1605329402141" duration="5434000" />
-      <workItem from="1605374383361" duration="222000" />
+      <workItem from="1605374383361" duration="274000" />
     </task>
     <servers />
   </component>
@@ -73,6 +73,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1288" y="275" key="#com.intellij.ide.util.MemberChooser/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605333729421" />
+    <state x="1263" y="314" key="FileChooserDialogImpl" timestamp="1605374651372">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1263" y="314" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605374651372" />
     <state width="1748" height="266" key="GridCell.Tab.0.bottom" timestamp="1605334722865">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
