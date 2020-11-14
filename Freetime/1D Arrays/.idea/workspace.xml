@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="435bc923-f401-47df-83f4-e3e5bcf14d43" name="Default Changelist" comment="" />
+    <list default="true" id="13314446-7d88-4ffa-80b7-c51dd8a9998a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kFrh2paqfYwdeLZR8dPJhxHv8C" />
+  <component name="ProjectId" id="1kG5lWPTw8n4cFPK3Oe0OR05sGL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,28 +39,28 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="GarbageCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyematzen.garbagecollection.GarbageCollection" />
-      <module name="Garbage Collection" />
+    <configuration name="OneDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyematzen.onedimensionalarrays.OneDimensionalArrays" />
+      <module name="1D Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GarbageCollection" />
+        <item itemvalue="Application.OneDimensionalArrays" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="435bc923-f401-47df-83f4-e3e5bcf14d43" name="Default Changelist" comment="" />
-      <created>1605307302274</created>
+      <changelist id="13314446-7d88-4ffa-80b7-c51dd8a9998a" name="Default Changelist" comment="" />
+      <created>1605314241271</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605307302274</updated>
-      <workItem from="1605307303373" duration="2976000" />
+      <updated>1605314241271</updated>
+      <workItem from="1605314242326" duration="1346000" />
     </task>
     <servers />
   </component>
@@ -68,25 +68,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom" timestamp="1605313494229">
+    <state width="1748" height="266" key="GridCell.Tab.0.bottom" timestamp="1605316751088">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605313494229" />
-    <state width="2517" height="413" key="GridCell.Tab.0.center" timestamp="1605313494229">
+    <state width="1748" height="266" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605316751088" />
+    <state width="1748" height="266" key="GridCell.Tab.0.center" timestamp="1605316751088">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605313494229" />
-    <state width="2517" height="413" key="GridCell.Tab.0.left" timestamp="1605313494229">
+    <state width="1748" height="266" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605316751088" />
+    <state width="1748" height="266" key="GridCell.Tab.0.left" timestamp="1605316751088">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605313494229" />
-    <state width="2517" height="413" key="GridCell.Tab.0.right" timestamp="1605313494229">
+    <state width="1748" height="266" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605316751088" />
+    <state width="1748" height="266" key="GridCell.Tab.0.right" timestamp="1605316751088">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605313494229" />
-    <state x="662" y="340" key="new project wizard" timestamp="1605314238667">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="662" y="340" key="new project wizard/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605314238667" />
+    <state width="1748" height="266" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605316751088" />
   </component>
 </project>
