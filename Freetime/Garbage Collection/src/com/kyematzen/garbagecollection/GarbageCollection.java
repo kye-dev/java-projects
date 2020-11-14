@@ -1,5 +1,7 @@
 package com.kyematzen.garbagecollection;
 
+import java.util.SplittableRandom;
+
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
  * <p>
@@ -14,25 +16,19 @@ package com.kyematzen.garbagecollection;
  * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
  * THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 public class GarbageCollection {
-
-    static class Example {
-
-    }
 
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
-        Example exampleObject = new Example();
+        SplittableRandom random = new SplittableRandom();
 
         // Nullifies the reference variable
-        exampleObject = null;
+        random = null;
 
         // requests for garbage collector
         System.gc();
-
-        // another way for requesting garbage collector
-        // Runtime.getRuntime().gc();
 
         // End of compiler program execution
     }
