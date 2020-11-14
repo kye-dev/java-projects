@@ -1,5 +1,6 @@
 package com.kyematzen.onedimensionalarrays;
 
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.SplittableRandom;
 
@@ -28,17 +29,34 @@ public class OneDimensionalArrays {
 
         // Initializes intArray to a random size from 1-200.
         int[] intArray = new int[splittableRandom.nextInt(1, 200)];
+        int intArraySize = intArray.length;
 
         // Loops through each index of intArray and assigns values randomly up to the length of intArray.
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = splittableRandom.nextInt(intArray.length);
+        for (int i = 0; i < intArraySize; i++) {
+            intArray[i] = splittableRandom.nextInt(intArraySize);
         }
 
         // Uses Arrays.stream(array) to return a IntStream and uses method sum() to calculate total of all integers inside.
         int sum = Arrays.stream(intArray).sum();
 
+        // Creates localized variable used to output sum of all values combined.
+        String sumStr = "";
+
+        // Checks whether or not our sum is greater than 1000.
+        if (sum > 1000) {
+            // If the sum is greater than 1,000 we'll use DecimalFormat to format our sum value with commas.
+            // Initializes instance of DecimalFormat with a format of #,###.
+            DecimalFormat decimalFormat = new DecimalFormat("#,###");
+
+            // Uses decimalFormat.format(number) to automatically format our sum based on #,###.
+            sumStr = decimalFormat.format(sum);
+        } else {
+            // Sum was less than 1000, convert from integer into String.
+            sumStr = String.valueOf(sum);
+        }
+
         // Prints sum of all values combined.
-        System.out.println("Sum of " + intArray.length + " integers randomly: " + sum + ".");
+        System.out.println("Sum of " + intArraySize + " integers randomly: " + sumStr + ".");
 
         // End of compiler program execution
     }
