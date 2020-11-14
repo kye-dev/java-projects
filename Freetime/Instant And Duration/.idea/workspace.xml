@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605306750733</updated>
       <workItem from="1605306751815" duration="286000" />
+      <workItem from="1605307068182" duration="234000" />
     </task>
     <servers />
   </component>
@@ -78,5 +79,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2517" height="413" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307033487" />
+    <state x="662" y="340" key="new project wizard" timestamp="1605307295273">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="662" y="340" key="new project wizard/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605307295273" />
   </component>
 </project>
