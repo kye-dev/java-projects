@@ -1,6 +1,8 @@
 package com.kyematzen.twosum;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
@@ -29,21 +31,43 @@ public class TwoSum {
 
         System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{2, 7, 11, 15}, 9)));
         System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{3,2,4}, 6)));
-        System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{3,3}, 6)));
+        System.out.println("Output: " + Arrays.toString(twoSumInstance.twoSum(new int[]{3,2, 3}, 6)));
 
         // End of compiler program execution
 
     }
 
-    // twoSum method for finding index answers that equal target
+    /**
+     * Output: [0, 1]
+     * Output: [2, 1]
+     * Output: [0, 1]
+     */
+
     public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[j] == target - nums[i]) {
-                    return new int[] { i, j };
-                }
+        Map<Integer, Integer> integerIntegerMap = new HashMap<>();
+        for (int i = 0; i < nums.length;i++) {
+            integerIntegerMap.put(nums[i], i);
+        }
+
+        for (int i = 0; i < nums.length;i++) {
+            int result = target - nums[i];
+            if (integerIntegerMap.containsKey(result) && integerIntegerMap.get(result) != i) {
+                return new int[] { i, integerIntegerMap.get(result) };
             }
         }
+
         return new int[2];
     }
+
+    // twoSum method for finding index answers that equal target
+//    public int[] twoSum(int[] nums, int target) {
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[j] == target - nums[i]) {
+//                    return new int[] { i, j };
+//                }
+//            }
+//        }
+//        return new int[2];
+//    }
 }
