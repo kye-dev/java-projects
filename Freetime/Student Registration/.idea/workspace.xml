@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13314446-7d88-4ffa-80b7-c51dd8a9998a" name="Default Changelist" comment="" />
+    <list default="true" id="43744c07-f8af-4f50-95a7-096a366c2873" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kG5lWPTw8n4cFPK3Oe0OR05sGL" />
+  <component name="ProjectId" id="1kGaUhp6yndTK7uxfy4m1MvFEuK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,28 +39,28 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="OneDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyematzen.onedimensionalarrays.OneDimensionalArrays" />
-      <module name="1D Arrays" />
+    <configuration name="StudentRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyematzen.studentregistration.StudentRegistration" />
+      <module name="Student Registration" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneDimensionalArrays" />
+        <item itemvalue="Application.StudentRegistration" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13314446-7d88-4ffa-80b7-c51dd8a9998a" name="Default Changelist" comment="" />
-      <created>1605314241271</created>
+      <changelist id="43744c07-f8af-4f50-95a7-096a366c2873" name="Default Changelist" comment="" />
+      <created>1605329400814</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605314241271</updated>
-      <workItem from="1605314242326" duration="3032000" />
+      <updated>1605329400814</updated>
+      <workItem from="1605329402141" duration="5434000" />
     </task>
     <servers />
   </component>
@@ -68,25 +68,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1748" height="266" key="GridCell.Tab.0.bottom" timestamp="1605318389404">
+    <state x="1288" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1605333729421">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1748" height="266" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605318389404" />
-    <state width="1748" height="266" key="GridCell.Tab.0.center" timestamp="1605318389404">
+    <state x="1288" y="275" key="#com.intellij.ide.util.MemberChooser/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605333729421" />
+    <state width="1748" height="266" key="GridCell.Tab.0.bottom" timestamp="1605334722865">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1748" height="266" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605318389404" />
-    <state width="1748" height="266" key="GridCell.Tab.0.left" timestamp="1605318389404">
+    <state width="1748" height="266" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605334722865" />
+    <state width="1748" height="266" key="GridCell.Tab.0.center" timestamp="1605334722865">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1748" height="266" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605318389404" />
-    <state width="1748" height="266" key="GridCell.Tab.0.right" timestamp="1605318389404">
+    <state width="1748" height="266" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605334722865" />
+    <state width="1748" height="266" key="GridCell.Tab.0.left" timestamp="1605334722865">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1748" height="266" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605318389404" />
-    <state x="281" y="120" key="new project wizard" timestamp="1605318552133">
+    <state width="1748" height="266" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605334722865" />
+    <state width="1748" height="266" key="GridCell.Tab.0.right" timestamp="1605334722865">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="281" y="120" key="new project wizard/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605318552133" />
+    <state width="1748" height="266" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605334722865" />
+    <state x="1278" y="306" key="refactoring.ChangeSignatureDialog" timestamp="1605333730756">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1278" y="306" key="refactoring.ChangeSignatureDialog/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605333730756" />
   </component>
 </project>
