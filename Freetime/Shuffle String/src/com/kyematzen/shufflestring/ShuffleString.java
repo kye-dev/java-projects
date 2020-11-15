@@ -1,4 +1,4 @@
-package com.kyematzen.numberofsteps;
+package com.kyematzen.shufflestring;
 
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
@@ -15,32 +15,34 @@ package com.kyematzen.numberofsteps;
  * THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-public class NumberOfSteps {
+public class ShuffleString {
 
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
-        // Examples
-        System.out.println("Output: " + numberOfSteps(14));
-        System.out.println("Output: " + numberOfSteps(8));
-        System.out.println("Output: " + numberOfSteps(123));
+        System.out.println("Output: " + restoreString("codeleet", new int[] {4,5,6,7,0,2,1,3}));
+        System.out.println("\nOutput: " + restoreString("abc", new int[] {0,1,2}));
+        System.out.println("\nOutput: " + restoreString("aiohn", new int[] {3,1,4,2,0}));
+        System.out.println("\nOutput: " + restoreString("aaiougrt", new int[] {4,0,2,6,7,3,1,5}));
+        System.out.println("\nOutput: " + restoreString("art", new int[] {1,0,2}));
 
         // End of compiler program execution
     }
 
-    // How many steps to reach 0?
-    public static int numberOfSteps(int num) {
-        int steps = 0;
+    public static String restoreString(String s, int[] indices) {
+        StringBuilder shuffledStr = new StringBuilder();
+        char[] characters = new char[s.length()];
 
-        while (num > 0) {
-            if (num % 2 == 0) {
-                num /= 2;
-            } else {
-                num -= 1;
-            }
-            steps++;
+        for (int character = 0; character < s.length(); character++) {
+            char localCharacter = s.charAt(character);
+
+            characters[indices[character]] = localCharacter;
         }
 
-        return steps;
+        for (char localCharacter : characters) {
+            shuffledStr.append(localCharacter);
+        }
+
+        return shuffledStr.toString();
     }
 }
