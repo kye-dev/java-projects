@@ -1,5 +1,8 @@
 package com.kyematzen.numberofcandies;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
  * <p>
@@ -20,6 +23,26 @@ public class NumberOfCandies {
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
+        System.out.println("Output: " + kidsWithCandies(new int[] {2,3,5,1,3}, 3).toString());
+        System.out.println("Output: " + kidsWithCandies(new int[] {4,2,1,1,2}, 1).toString());
+
         // End of compiler program execution
+    }
+
+    public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        List<Boolean> booleanList = new ArrayList<>();
+        int highestCandy = 0;
+
+        for (int candy : candies) {
+            if (candy > highestCandy) {
+                highestCandy = candy;
+            }
+        }
+
+        for (int candy : candies) {
+            booleanList.add(candy + extraCandies >= highestCandy);
+        }
+
+        return booleanList;
     }
 }
