@@ -1,4 +1,6 @@
-package com.kyematzen.shufflestring;
+package com.kyematzen.sortarraybyparity;
+
+import java.util.Arrays;
 
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
@@ -15,34 +17,33 @@ package com.kyematzen.shufflestring;
  * THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-public class ShuffleString {
+public class SortArrayByParity {
 
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
-        System.out.println("Output: " + restoreString("codeleet", new int[] {4,5,6,7,0,2,1,3}));
-        System.out.println("\nOutput: " + restoreString("abc", new int[] {0,1,2}));
-        System.out.println("\nOutput: " + restoreString("aiohn", new int[] {3,1,4,2,0}));
-        System.out.println("\nOutput: " + restoreString("aaiougrt", new int[] {4,0,2,6,7,3,1,5}));
-        System.out.println("\nOutput: " + restoreString("art", new int[] {1,0,2}));
+        System.out.println("Output: " + Arrays.toString(sortArrayByParity(new int[]{3, 1, 2, 4})));
+        System.out.println("Output: " + Arrays.toString(sortArrayByParity(new int[]{2, 4, 3, 1})));
 
         // End of compiler program execution
     }
 
-    public static String restoreString(String s, int[] indices) {
-        StringBuilder shuffledStr = new StringBuilder();
-        char[] characters = new char[s.length()];
+    public static int[] sortArrayByParity(int[] A) {
+        int[] localArray = new int[A.length];
+        int index = 0;
 
-        for (int character = 0; character < s.length(); character++) {
-            char localCharacter = s.charAt(character); // 1 - o
-
-            characters[indices[character]] = localCharacter;
+        for (int j : A) {
+            if (j % 2 == 0) {
+                localArray[index++] = j;
+            }
         }
 
-        for (char localCharacter : characters) {
-            shuffledStr.append(localCharacter);
+        for (int j : A) {
+            if (j % 2 == 1) {
+                localArray[index++] = j;
+            }
         }
 
-        return shuffledStr.toString();
+        return localArray;
     }
 }

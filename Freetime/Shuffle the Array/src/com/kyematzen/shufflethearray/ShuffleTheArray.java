@@ -1,8 +1,6 @@
 package com.kyematzen.shufflethearray;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Copyright 2020, Kye Matzen, http://kyematzen.com
@@ -24,9 +22,9 @@ public class ShuffleTheArray {
     // Starting position for compiler program execution
     public static void main(String[] args) {
 
-        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{2, 5, 1, 3, 4, 7}, 3)));
-        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{1,2,3,4,4,3,2,1}, 4)));
-        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{1,1,2,2}, 2)));
+        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{2, 5, 1, 3, 4, 7}, 3))); // Output [2,3,5,4,1,7]
+        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{1,2,3,4,4,3,2,1}, 4))); // Output [1,4,2,3,3,2,4,1]
+        System.out.println("Output: " + Arrays.toString(shuffle(new int[]{1,1,2,2}, 2))); // Output [1,2,1,2]
 
         // End of compiler program execution
     }

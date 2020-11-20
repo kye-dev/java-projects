@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25d9dd9-094a-438e-b5fb-972b325df6c8" name="Default Changelist" comment="" />
+    <list default="true" id="034960a9-761f-4847-97a8-1c11a5093c81" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kKmwDJhQyuVgB7i3wFLTaPmvfe" />
+  <component name="ProjectId" id="1kLnKWZSMYuDJXEACdWzilw7zwb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,30 +39,31 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyematzen.shufflestring.ShuffleString" />
-      <module name="Shuffle String" />
+    <configuration name="SortArrayByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyematzen.sortarraybyparity.SortArrayByParity" />
+      <module name="Sort Array By Parity" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShuffleString" />
+        <item itemvalue="Application.SortArrayByParity" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b25d9dd9-094a-438e-b5fb-972b325df6c8" name="Default Changelist" comment="" />
-      <created>1605457893537</created>
+      <changelist id="034960a9-761f-4847-97a8-1c11a5093c81" name="Default Changelist" comment="" />
+      <created>1605488675273</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605457893537</updated>
-      <workItem from="1605457894582" duration="1722000" />
-      <workItem from="1605476878907" duration="547000" />
-      <workItem from="1605479801651" duration="1200000" />
+      <updated>1605488675273</updated>
+      <workItem from="1605488676368" duration="1423000" />
+      <workItem from="1605563902969" duration="34000" />
+      <workItem from="1605748850835" duration="2000" />
+      <workItem from="1605816988055" duration="2789000" />
     </task>
     <servers />
   </component>
@@ -70,21 +71,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom" timestamp="1605459617210">
+    <state width="1860" height="292" key="GridCell.Tab.0.bottom" timestamp="1605819085175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605459617210" />
-    <state width="2517" height="413" key="GridCell.Tab.0.center" timestamp="1605459617210">
+    <state width="1860" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605819085175" />
+    <state width="1860" height="292" key="GridCell.Tab.0.center" timestamp="1605819085175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605459617210" />
-    <state width="2517" height="413" key="GridCell.Tab.0.left" timestamp="1605459617209">
+    <state width="1860" height="292" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605819085175" />
+    <state width="1860" height="292" key="GridCell.Tab.0.left" timestamp="1605819085175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605459617209" />
-    <state width="2517" height="413" key="GridCell.Tab.0.right" timestamp="1605459617210">
+    <state width="1860" height="292" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605819085175" />
+    <state width="1860" height="292" key="GridCell.Tab.0.right" timestamp="1605819085175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="413" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605459617210" />
+    <state width="1860" height="292" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605819085175" />
+    <state x="1061" y="431" width="585" height="534" key="find.popup" timestamp="1605818784772">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1061" y="431" width="585" height="534" key="find.popup/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605818784772" />
   </component>
 </project>
