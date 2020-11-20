@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7613edda-aeb7-4591-93a9-bcde0ff1eda7" name="Default Changelist" comment="" />
+    <list default="true" id="60965a55-3629-4d1b-b4ff-510f881e87e5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kXX4pCkcwt6lTJISR4MMSg7Qe6" />
+  <component name="ProjectId" id="1kXYnUix9tJ7CmxhdIELH2cdzcX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,29 +33,28 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="NumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyematzen.numberofcandies.NumberOfCandies" />
-      <module name="Kids With the Great Number of Candies" />
+    <configuration name="DefangingAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyematzen.defangingaddress.DefangingAddress" />
+      <module name="Defanging an IP Address" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfCandies" />
+        <item itemvalue="Application.DefangingAddress" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7613edda-aeb7-4591-93a9-bcde0ff1eda7" name="Default Changelist" comment="" />
-      <created>1605847721830</created>
+      <changelist id="60965a55-3629-4d1b-b4ff-510f881e87e5" name="Default Changelist" comment="" />
+      <created>1605848569289</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605847721830</updated>
-      <workItem from="1605847722924" duration="556000" />
-      <workItem from="1605848296657" duration="265000" />
+      <updated>1605848569289</updated>
+      <workItem from="1605848570403" duration="176000" />
     </task>
     <servers />
   </component>
@@ -63,25 +62,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1860" height="292" key="GridCell.Tab.0.bottom" timestamp="1605848069297">
+    <state width="1860" height="286" key="GridCell.Tab.0.bottom" timestamp="1605848710145">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1860" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848069297" />
-    <state width="1860" height="292" key="GridCell.Tab.0.center" timestamp="1605848069297">
+    <state width="1860" height="286" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848710145" />
+    <state width="1860" height="286" key="GridCell.Tab.0.center" timestamp="1605848710144">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1860" height="292" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848069297" />
-    <state width="1860" height="292" key="GridCell.Tab.0.left" timestamp="1605848069297">
+    <state width="1860" height="286" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848710144" />
+    <state width="1860" height="286" key="GridCell.Tab.0.left" timestamp="1605848710144">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1860" height="292" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848069297" />
-    <state width="1860" height="292" key="GridCell.Tab.0.right" timestamp="1605848069297">
+    <state width="1860" height="286" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848710144" />
+    <state width="1860" height="286" key="GridCell.Tab.0.right" timestamp="1605848710144">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1860" height="292" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848069297" />
-    <state x="895" y="275" key="SettingsEditor" timestamp="1605848367738">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="895" y="275" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848367738" />
+    <state width="1860" height="286" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605848710144" />
   </component>
 </project>
