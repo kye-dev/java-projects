@@ -32,13 +32,13 @@ public class TargetArray {
         int[] targetArray = new int[nums.length];
 
         for (int i = 0; i < index.length; i++) {
-            int in = index[i];
-
-            if (in < i) {
-                if (i - in >= 0) System.arraycopy(targetArray, in, targetArray, in + 1, i - in);
+            if (index[i] < i) {
+                // One liner: if (i - index[i] >= 0) System.arraycopy(targetArray, index[i], targetArray, index[i] + 1, i - index[i]);
+                for (int j = i; j > index[i]; j--) {
+                    targetArray[j] = targetArray[j - 1];
+                }
             }
-
-            targetArray[in] = nums[i];
+            targetArray[index[i]] = nums[i];
         }
 
         return targetArray;

@@ -55,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605849735568</updated>
       <workItem from="1605849736639" duration="1149000" />
+      <workItem from="1607617138169" duration="623000" />
+      <workItem from="1607620116717" duration="618000" />
     </task>
     <servers />
   </component>
@@ -62,6 +64,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1259" y="447" key="FileChooserDialogImpl" timestamp="1607620705251">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1259" y="447" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1607620705251" />
     <state width="1860" height="286" key="GridCell.Tab.0.bottom" timestamp="1605850688566">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -78,5 +84,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1860" height="286" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1605850688566" />
+    <state x="1070" y="281" key="new project wizard" timestamp="1607620731924">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1070" y="281" key="new project wizard/0.0.2560.1440/2560.0.1920.1080/-1920.0.1920.1080@0.0.2560.1440" timestamp="1607620731924" />
   </component>
 </project>
