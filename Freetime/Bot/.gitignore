@@ -1,0 +1,5 @@
+
+.gradle/checksums/checksums.lock
+*.lock
+*.lock
+*.bin
