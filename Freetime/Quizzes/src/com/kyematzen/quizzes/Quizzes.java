@@ -27,6 +27,7 @@ public class Quizzes {
     }
 
     public static void getQuizAnswers(Scanner localScanner) {
+        // 2. Ask the user to provide how many quiz answers.
         String answer = "";
         System.out.println("Please provide quiz key.");
         while (answer.isEmpty()) {
