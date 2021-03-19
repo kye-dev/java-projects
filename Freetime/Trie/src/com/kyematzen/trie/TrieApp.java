@@ -65,7 +65,7 @@ public class TrieApp {
         File file = new File("D:\\Projects\\Java\\Freetime\\Trie");
         List<String> wordDocuments = new ArrayList<>();
         for (File file1 : file.listFiles()) {
-            if (!file1.isDirectory() && file1.getName().contains("4.txt")) {
+            if (!file1.isDirectory() && file1.getName().contains("1.txt")) {
                 wordDocuments.add(file1.getAbsolutePath());
             }
         }

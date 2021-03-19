@@ -28,7 +28,7 @@ public class Trie {
         }
         // FOLLOWING LINE IS A PLACEHOLDER TO ENSURE COMPILATION
         // MODIFY IT AS NEEDED FOR YOUR IMPLEMENTATION
-        return null;
+        return root;
     }
     private static void insertWord(TrieNode root,  String word, String[] words, int index) {
         TrieNode pointer = root.firstChild;
@@ -46,7 +46,41 @@ public class Trie {
         String localWord = words[pointer.substr.startIndex];
 
         if (localWord.startsWith(Character.toString(word.charAt(0)))) {
-            System.out.println("Word " + word + " begins with same first letter.");
+            int numOfSimilar = 0;
+
+            for (int i = 0; i < words[pointer.substr.wordIndex].length() - 1; i++) {
+                if (words[pointer.substr.wordIndex].charAt(i) == word.charAt(i)) {
+                    numOfSimilar++;
+                }
+            }
+
+            pointer.substr.endIndex = (short) (word.length() - 2 - numOfSimilar);
+            if (pointer.firstChild == null) {
+                pointer.firstChild = new TrieNode(new Indexes(pointer.substr.wordIndex, (short) (pointer.substr.endIndex + 1), (short) (words[pointer.substr.wordIndex].length() - 1)), null, null);
+            } else {
+                System.out.println("first child not null.");
+                System.out.println("Word: " + words[pointer.firstChild.substr.startIndex]);
+                if (words[pointer.firstChild.substr.startIndex].startsWith(Character.toString(word.charAt(0)))) {
+                    int numOfSimilar1 = 0;
+                    for (int j = 0; j < words[pointer.firstChild.substr.wordIndex].length() - 1; j++) {
+                        if (words[pointer.firstChild.substr.wordIndex].charAt(j) == word.charAt(j)) {
+                            numOfSimilar1++;
+                        }
+                    }
+
+                    pointer.firstChild.substr.endIndex = (short) (words[pointer.firstChild.substr.startIndex].length() - numOfSimilar1 - 1);
+
+                    if (pointer.firstChild.sibling == null) {
+                        pointer.firstChild.sibling = new TrieNode(new Indexes(index, (short) 0, (short) (word.length() - 1)), null, null);
+                        System.out.println("Created child sibling " + words[pointer.firstChild.sibling.substr.wordIndex]);
+                    } else {
+                        System.out.println("first child sibling not null.");
+                    }
+                } else {
+
+                }
+            }
+            //pointer.firstChild.sibling = new TrieNode(new Indexes(index, (short) (pointer.substr.endIndex + 1), (short) (word.length() - 1)), null, null);
         } else {
             //System.out.println("Word " + word + " does not begin with same first letter.");
 
@@ -60,53 +94,53 @@ public class Trie {
 
             TrieNode localSibling = pointer.sibling;
 
-            while (localSibling != null) {
-                if (words[localSibling.substr.wordIndex].startsWith(Character.toString(word.charAt(0)))) {
-                    System.out.println("Word " + word + " begins with same first letter for " + words[localSibling.substr.wordIndex]);
-
-                    int numOfSimilar = 0;
-                    for (int i = 0; i < words[pointer.substr.wordIndex].length(); i++) {
-                        if (words[localSibling.substr.wordIndex].charAt(i) == word.charAt(i)) {
-                            numOfSimilar++;
-                        }
-                    }
-
-                    //System.out.println("Amount Similar: " + numOfSimilar);
-                    //String similar = word.substring(0, numOfSimilar);
-                    //System.out.println("Similar prefix: " + similar);
-                    //System.out.println("Creating new sibling overriding current..");
-
-
-                    ArrayList<String> children = new ArrayList<>();
-                    children.add(word.substring(numOfSimilar));
-                    children.add(words[localSibling.substr.wordIndex].substring(numOfSimilar));
-
-                    TrieNode overwritten = new TrieNode(new Indexes(index, (short) 0, (short) numOfSimilar), localSibling.firstChild, localSibling.sibling);
-
-                    System.out.println("Overwritten: " + words[overwritten.substr.wordIndex].substring(overwritten.substr.startIndex, overwritten.substr.endIndex));
-
-//                    // Checks whether or not we have a child yet of this word.
-                    if (localSibling.firstChild == null) {
-                        String dictionary = children.remove(0);
-                        localSibling.firstChild = new TrieNode(new Indexes(index, (short) numOfSimilar, (short) (dictionary.length() - 1)), null, null);
-                        System.out.println("Created child for: " + dictionary + ". ");
-                    }
-
-                    for (String child : children) {
-                        System.out.println("Child: " + child);
-                    }
-
-                    break;
-                } else {
-                    //System.out.println("Word " + word + " does not begin with same first letter for " + words[localSibling.substr.wordIndex]);
-                    if (localSibling.sibling != null) {
-                        localSibling = localSibling.sibling;
-                    } else {
-                        localSibling.sibling = new TrieNode(new Indexes(index, (short) 0, (short) (word.length() - 1)), null, null);
-                        System.out.println("Created sibling " + word + " of " + localWord);
-                    }
-                }
-            }
+//            while (localSibling != null) {
+//                if (words[localSibling.substr.wordIndex].startsWith(Character.toString(word.charAt(0)))) {
+//                    System.out.println("Word " + word + " begins with same first letter for " + words[localSibling.substr.wordIndex]);
+//
+//                    int numOfSimilar = 0;
+//                    for (int i = 0; i < words[pointer.substr.wordIndex].length(); i++) {
+//                        if (words[localSibling.substr.wordIndex].charAt(i) == word.charAt(i)) {
+//                            numOfSimilar++;
+//                        }
+//                    }
+//
+//                    //System.out.println("Amount Similar: " + numOfSimilar);
+//                    //String similar = word.substring(0, numOfSimilar);
+//                    //System.out.println("Similar prefix: " + similar);
+//                    //System.out.println("Creating new sibling overriding current..");
+//
+//
+//                    ArrayList<String> children = new ArrayList<>();
+//                    children.add(word.substring(numOfSimilar));
+//                    children.add(words[localSibling.substr.wordIndex].substring(numOfSimilar));
+//
+//                    //TrieNode overwritten = new TrieNode(new Indexes(index, (short) 0, (short) numOfSimilar), localSibling.firstChild, localSibling.sibling);
+//
+//                    //System.out.println("Overwritten: " + words[overwritten.substr.wordIndex].substring(overwritten.substr.startIndex, overwritten.substr.endIndex));
+//
+////                    // Checks whether or not we have a child yet of this word.
+//                    if (localSibling.firstChild == null) {
+//                        String dictionary = children.remove(0);
+//                        localSibling.firstChild = new TrieNode(new Indexes(index, (short) numOfSimilar, (short) (dictionary.length() - 1)), null, null);
+//                        //System.out.println("Created child for: " + dictionary + ". ");
+//                    }
+//
+////                    for (String child : children) {
+////                        System.out.println("Child: " + child);
+////                    }
+//
+//                    break;
+//                } else {
+//                    //System.out.println("Word " + word + " does not begin with same first letter for " + words[localSibling.substr.wordIndex]);
+//                    if (localSibling.sibling != null) {
+//                        localSibling = localSibling.sibling;
+//                    } else {
+//                        localSibling.sibling = new TrieNode(new Indexes(index, (short) 0, (short) (word.length() - 1)), null, null);
+//                        System.out.println("Created sibling " + word + " of " + localWord);
+//                    }
+//                }
+//            }
         }
     }
 
